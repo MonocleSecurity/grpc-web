@@ -14,7 +14,7 @@ import (
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_logrus "github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/improbable-eng/grpc-web/go/grpcweb"
+	"github.com/MonocleSecurity/grpc-web/go/grpcweb"
 	"github.com/mwitkow/go-conntrack"
 	"github.com/MonocleSecurity/grpc-proxy/proxy"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
